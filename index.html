@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maranatha Home - Ofankor - Barrier, Accra</title>
+    <meta name="description" content="Maranatha Home - A premier basic school in Ofankor - Barrier, Accra. Nurturing academic excellence and community values.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Emergency Alerts Banner -->
+    <!--<div class="emergency-banner" id="emergencyBanner">
+        <div class="container">
+            <i class="fas fa-exclamation-triangle"></i>
+            <span>Enrollment Open for 2025-2026 Academic Year! Limited spots available.</span>
+            <button onclick="closeEmergencyBanner()" class="close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+    </div>-->
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-section">
+                    <div class="logo">
+                        <img src="images/logo.png" alt="Maranatha Home Logo">
+                    </div>
+                    <div class="school-info">
+                        <h1>Maranatha Home Sch.</h1>
+                        <p>Ofankor - Barrier, Accra</p>
+                    </div>
+                </div>
+                
+                                    <nav class="main-nav">
+                        <ul>
+                            <li><a href="#home" class="active">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#academics">Academics</a></li>
+                            <li><a href="#admissions">Admissions</a></li>
+                            <li><a href="#news">News</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="staff.html">Staff</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                <div class="header-actions">
+                   
+                    <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#academics">Academics</a></li>
+                <li><a href="#admissions">Admissions</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="staff.html">Staff</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero-section reveal">
+            <div class="hero-content">
+                <div class="container">
+                    <h2 class="reveal-up">Welcome to Maranatha Home School</h2>
+                    <p class="reveal-up">Nurturing minds, building futures, and creating leaders for tomorrow</p>
+                    <div class="hero-buttons">
+                        <a href="#admissions" class="btn btn-primary">Apply Now</a>
+                        <a href="#about" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/building.jpg" alt="Maranatha Home School">
+            </div>
+        </section>
+
+        <!-- Key Announcements -->
+        <section class="announcements">
+            <div class="container">
+                <div class="announcement-banner">
+                    <i class="fas fa-bullhorn"></i>
+                    <span>🎓 Enrollment Open for 2025-2026 Academic Year!</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- School Highlights -->
+        <section class="highlights reveal">
+            <div class="container">
+                <h2 class="section-title">Why Choose Maranatha Home?</h2>
+                <div class="highlights-grid">
+                    <div class="highlight-card reveal-up reveal-delay-1">
+                        <div class="icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>Academic Excellence</h3>
+                        <p>Consistently high academic performance with personalized learning approaches.</p>
+                    </div>
+                    <div class="highlight-card reveal-up reveal-delay-2">
+                        <div class="icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Student Life</h3>
+                        <p>Rich extracurricular activities fostering creativity and leadership skills.</p>
+                    </div>
+                    <div class="highlight-card reveal-up reveal-delay-3">
+                        <div class="icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Community Values</h3>
+                        <p>Building character through respect, responsibility, and community service.</p>
+                    </div>
+                    <div class="highlight-card reveal-up reveal-delay-4">
+                        <div class="icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Holistic Development</h3>
+                        <p>Nurturing physical, emotional, and intellectual growth of every child.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Upcoming Events -->
+        <section class="events reveal">
+            <div class="container">
+                <h2 class="section-title ">Upcoming Events</h2>
+                <div class="events-grid">
+                    <div class="event-card reveal-up">
+                        <div class="event-date">
+                            <span class="day">25</span>
+                            <span class="month">Feb</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Inter Houses Quiz</h3>
+                            <p>Inter-Houses Quiz competition with teams answering questions in area of study.</p>
+                            <span class="time"><i class="fas fa-clock"></i> 1:00 PM</span>
+                        </div>
+                    </div>
+                    <div class="event-card reveal-up">
+                        <div class="event-date">
+                            <span class="day">4</span>
+                            <span class="month">Mar</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Parent-Teacher Meeting</h3>
+                            <p>End of term parent-teacher conferences to discuss student progress.</p>
+                            <span class="time"><i class="fas fa-clock"></i> 3:00 PM - 6:00 PM</span>
+                        </div>
+                    </div>
+                    <div class="event-card reveal-up">
+                        <div class="event-date">
+                            <span class="day">18</span>
+                            <span class="month">Mar</span>
+                        </div>
+                        <div class="event-details">
+                            <h3>Career Day</h3>
+                            <p>Special day to nuture learners on the importance of various careers.</p>
+                            <span class="time"><i class="fas fa-clock"></i> 8:00 AM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial -->
+        <section class="testimonial reveal">
+            <div class="container">
+                <div class="testimonial-content">
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <blockquote>
+                        "Maranatha Home has provided my child with an exceptional educational foundation. The teachers are dedicated, the curriculum is comprehensive, and the school environment is nurturing. I couldn't be happier with our choice."
+                    </blockquote>
+                    <div class="testimonial-author">
+                        <img src="images/staff1.jpg" alt="Parent">
+                        <div>
+                            <h4>Mrs. Sarah Addo</h4>
+                            <p>Parent of Grade 3 Student</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section reveal">
+            <div class="container">
+                <h2 class="section-title">About Us</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Our Story</h3>
+                        <p>Maranatha Home was established on September 12, 2012. We began with 18 students on our first day, 
+                            but the school rapidly grew due to the innovative approaches we introduced to the community, which set 
+                            us apart from existing schools at the time. Initially, we offered classes from Nursery to Grade 6. In 2016,
+                             we started administering the BECE, and from 2016 to 2018, <b>our students consistently achieved outstanding
+                                 results, with our lowest grade being Aggregate 10,</b> which enabled us to top 
+                                 the district for three consecutive years. Today, we proudly serve over 350 students.</p>
+                        
+                        <h3>Our Mission</h3>
+                        <p>Our mission is to provide a supportive and inclusive learning environment 
+                            that inspires students to achieve their full potential, think critically, 
+                            and develop into compassionate, responsible, and innovative individuals, 
+                            prepared to succeed in an ever-changing world.</p>
+                        
+                        <h3>Our Vision</h3>
+                        <p>To empower children with knowledge, skills, and values, fostering 
+                            academic excellence, creativity, and character development, while nurturing 
+                            a community of lifelong learners who will make a positive impact in the world.</p>
+                    </div>
+                    <div class="about-image">
+                        <img class="reveal-zoom" src="images/students2.jpg" alt="School Building">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leadership Section -->
+        <section class="leadership reveal">
+            <div class="container">
+                <h2 class="section-title">Leadership</h2>
+                <div class="leadership-grid">
+                    <div class="leader-card">
+                        <img class="reveal-zoom" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Principal">
+                        <h3>Mr. Gyesi</h3>
+                        <p class="position">Principal</p>
+                        <p class="qualification">M.Ed. Educational Leadership, University of Ghana</p>
+                        <p class="message">"Our commitment is to provide every child with the tools they need to succeed in life, both academically and personally."</p>
+                    </div>
+                    <div class="leader-card">
+                        <img class="reveal-zoom" src="images/staff1.jpg" alt="Vice Principal">
+                        <h3>Mrs. Grace Osei</h3>
+                        <p class="position">Vice Principal</p>
+                        <p class="qualification">B.Ed. Early Childhood Education, KNUST</p>
+                        <p class="message">"We believe in creating a supportive environment where every child feels valued and motivated to learn."</p>
+                    </div>
+                </div><br>
+                <a href="staff.html" class="btn btn-secondary">View all Administrative and Supportive Staff</a>
+            </div>
+        </section>
+
+        <!-- Academics Section -->
+        <section id="academics" class="academics-section reveal">
+            <div class="container">
+                <h2 class="section-title">Academics</h2>
+                <div class="academics-content">
+                    <div class="curriculum-overview">
+                        <h3>Curriculum Overview</h3>
+                        <div class="grade-levels">
+                            <div class="grade-card">
+                                <h4>Galaxy(Ages 3-5)</h4>
+                                <ul>
+                                    <li>Phonics and OWOP</li>
+                                    <li>Literacy and Numeracy</li>
+                                    <li>Reading and Spelling</li>
+                                    <li>Creative Arts, French and Writing</li>
+                                </ul>
+                            </div>
+                            <div class="grade-card">
+                                <h4>Primary (Grades 1-6)</h4>
+                                <ul>
+                                    <li>Core subjects: English, Math, Science</li>
+                                    <li>History and Creative Arts</li>
+                                    <li>OWOP, RME and Computing</li>
+                                    <li>Akuapem Twi and French</li>
+                                </ul>
+                            </div>
+                            <div class="grade-card">
+                                <h4>High School (Grade 7-9)</h4>
+                                <ul>
+                                    <li>Core subjects: English, Math, Science</li>
+                                    <li>Social Studies, R.M.E and Career Tech</li>
+                                    <li>Akuapem Twi and Creative Arts</li>
+                                    <li>French and Computing</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Admissions Section -->
+        <section id="admissions" class="admissions-section reveal">
+            <div class="container">
+                <h2 class="section-title">Admissions</h2>
+                <div class="admissions-content">
+                    <div class="admission-process">
+                        <h3>Admission Process</h3>
+                        <div class="process-steps">
+                            <div class="step">
+                                <div class="step-number">1</div>
+                                <h4>Application</h4>
+                                <p>Submit completed application form with required documents</p>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">2</div>
+                                <h4>Assessment</h4>
+                                <p>Student assessment and parent interview</p>
+                            </div>
+                            <div class="step">
+                                <div class="step-number">3</div>
+                                <h4>Enrollment</h4>
+                                <p>Complete enrollment and payment of fees</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="requirements">
+                        <h3>Requirements</h3>
+                        <div class="requirements-list">
+                            <div class="requirement-item">
+                                <h4>Age Criteria</h4>
+                                <ul>
+                                    <li>Galaxy: 3-5 years</li>
+                                    <li>Grade: 6-12 years</li>
+                                    <li>Junior High School: 13-15 years</li>
+                                </ul>
+                            </div>
+                            <div class="requirement-item">
+                                <h4>Required Documents</h4>
+                                <ul>
+                                    <li>Birth certificate</li>
+                                    <li>Previous school records</li>
+                                    <li>Immunization records</li>
+                                    <li>Passport-sized photographs</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="apply-now">
+                    <h3>Ready to Join Us?</h3>
+                    <p>Start your child's educational journey at Maranatha Home</p>
+                    <a href="#contact" class="btn btn-primary">Apply Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Student Life Section -->
+        <section class="student-life reveal">
+            <div class="container">
+                <h2 class="section-title">Student Life</h2>
+                <div class="student-life-content">
+                    <div class="clubs-activities">
+                        <h3>Clubs & Activities</h3>
+                        <div class="activities-grid">
+                            <div class="activity-card">
+                                <i class="fas fa-palette"></i>
+                                <h4>Arts & Crafts</h4>
+                                <p>Creative expression through painting, drawing, and crafts</p>
+                            </div>
+                            <div class="activity-card">
+                                <i class="fas fa-futbol"></i>
+                                <h4>Sports</h4>
+                                <p>Football, athletics, and physical fitness activities</p>
+                            </div>
+                            <div class="activity-card">
+                                <i class="fas fa-music"></i>
+                                <h4>Music & Dance</h4>
+                                <p>Traditional and modern music, dance performances</p>
+                            </div>
+                        </div>
+                        <br>
+
+                            <a href="gallery.html" class="btn btn-secondary">View All Activities</a>
+                            
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="news" class="news-section reveal">
+            <div class="container">
+                <h2 class="section-title">News & Updates</h2>
+                <div class="news-grid">
+                    <article class="news-card">
+                        <img class="reveal-zoom" src="images/students3.jpg" alt="Science Fair">
+                        <div class="news-content">
+                            <div class="news-meta">
+                                <span class="date">December 22, 2025</span>
+                                <span class="category">Events</span>
+                            </div>
+                            <h3>Graduation Ceremony</h3>
+                            <p>Graduation ceremony celebrating young students' academic achievements milestone. </p>
+                            
+                        </div>
+                    </article>
+                    <article class="news-card">
+                        <img class="reveal-zoom" src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="New Facilities">
+                        <div class="news-content">
+                            <div class="news-meta">
+                                <span class="date">December 5, 2024</span>
+                                <span class="category">Facilities</span>
+                            </div>
+                            <h3>New Computer Lab Opening</h3>
+                            <p>We're excited to announce the opening of our new state-of-the-art computer laboratory for enhanced digital learning.</p>
+                            
+                        </div>
+                    </article>
+                    <article class="news-card">
+                        <img class="reveal-zoom" src="images/trophies.jpeg" alt="Academic Achievement">
+                        <div class="news-content">
+                            <div class="news-meta">
+                                <span class="date">December 1, 2025</span>
+                                <span class="category">Achievements</span>
+                            </div>
+                            <h3>Outstanding Academic Results</h3>
+                            <p>Congratulations to our students for achieving excellent results in the recent national assessments.</p>
+                            
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Parents Corner -->
+        <section class="parents-corner reveal">
+            <div class="container">
+                <h2 class="section-title">Parents' Corner</h2>
+                <div class="parents-content">
+                    <div class="parent-resource">
+                        <h3>School Calendar</h3>
+                        <p>Download our academic calendar for important dates and events.</p>
+                        <a href="#" class="btn btn-secondary"download>Download Calendar</a>
+                    </div>
+                    <div class="parent-resource">
+                        <h3>Lunch Menus</h3>
+                        <p>View weekly lunch menus and nutritional information.</p>
+                        <a href="#" class="btn btn-secondary">View Menus</a>
+                    </div>
+                    <div class="parent-resource">
+                        <h3>PTA Information</h3>
+                        <p>Stay connected with our Parent-Teacher Association.</p>
+                        <a href="#" class="btn btn-secondary">PTA Details</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section reveal">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>Ofankor - Barrier, Accra, Ghana</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+233 (0) 273151271</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>maranathahomeschool@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Office Hours</h4>
+                                <p>Monday - Friday: 6:30 AM - 4:00 PM</p>
+                            </div>
+                            <div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                <div class="contact-form">
+                       <h3>Send Us A Message</h3>
+                            <div class="form-group">
+                                We’d love to hear from you! Just follow these 3 quick steps
+                            </div>
+                            <div class="form-group">
+                                1. <b>Tap the button</b> below to open our secure Google Form.
+                            </div>
+                            <div class="form-group">
+                                2. <b>Enter your name, your email or phone number</b>, and a <b>short message</b> explaining what you need help with.
+                            </div>
+                            <div class="form-group">
+                                3. <b>Hit submit</b> – we’ll get back to you as soon as possible.
+                            </div>
+                            <a href="#" target="_blank">
+                            <button type="submit" class="btn btn-primary">Send Message</button></a>
+                    </div>
+                </div>
+                
+                <div class="map-section">
+                    <h3>Find Us</h3>
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.3787483675633!2d-0.2717401253773061!3d5.658234094323146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9f95fb36a989%3A0x24941efed85ac535!2sMaranatha%20Home%20School%2C%20Ofankor!5e0!3m2!1sen!2sgh!4v1771223943033!5m2!1sen!2sgh" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Maranatha Home Logo">
+                        <h3>Maranatha Home</h3>
+                    </div>
+                    <p>Nurturing minds, building futures, and creating leaders for tomorrow.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/MaranathaHomeSchool" target="_blank" aria-label="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    
+                        <a href="https://www.instagram.com/maranathahomeschool" target="_blank" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    
+                        <a href="https://www.tiktok.com/@maranathahomeschool55424" target="_blank" aria-label="TikTok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                    
+                        <a href="https://www.youtube.com/" target="_blank" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                    
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#academics">Academics</a></li>
+                        <li><a href="#admissions">Admissions</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="staff.html">Staff</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Resource</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                    
+                    </ul>
+                </div>
+                
+                
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Maranatha Home. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
